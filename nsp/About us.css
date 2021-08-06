@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url("background.jpg");
+    background-position: center;
+    background-size:  100%;
+    background-origin: 100%;
+    margin: 0px;
+    padding-top: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 0px;
+   }
+  
+  
+  html {
+    box-sizing: border-box;
+    
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .emg{
+	margin-right: 3px;;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: red;
+	color: black;
+	border: 1px solid red;
+	border-radius: 10px;;
+	font-size: 20px;
+	
+}
+
+.emg:hover{
+	background-color: white;
+	color: blue;
+	border: 1px solid white;
+}
+
+.emg:active{
+	background-color:green;
+	color: white;
+	border: 1px solid green;
+}
+  .column {
+    float: left;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    
+  }
+  
+  .card {
+    
+    margin: 8px;
+    width: 4px 0px 8px;
+  }
+  
+  .about-section {
+    padding-bottom: 10px;
+    text-align: center;
+    
+    
+  }
+  .about-section h1 {
+    font-size: 50px;
+    font-style: italic;
+    color: aqua;
+  }
+
+  .about-section h2 {
+    font-size: 40px;
+    font-style: italic;
+    color: lightblue;
+  }
+  .container {
+    padding: 0 16px;
+    
+  }
+  .container h2 {
+    padding-left: 0%;
+    color: khaki;
+  }
+  .container p {
+    padding-left: 0%;
+    color: white;
+  }
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  .box h4 {
+    color: red;
+  }
+  .box b {
+    font-size: 20px;
+  }
+ 
+  
+  @media screen and (max-width: 550px) {
+    .column {
+      width: 50%;
+      display: inline-block;
+    }
+    .link{
+        float: right;
+        padding-top: 14px;
+        padding-right: 30px;
+    }
+  }
+    
+    .link{
+      float: right;
+      margin-left: 400px;
+      padding-top: 130px;
+      padding-right: 30px;
+      
+  }
+  
+  .link li{
+      color: white;
+      font-size: 20px;
+      display: flex;
+      display: inline-block;
+      border: 1px;
+      border-radius: 10px;
+      margin-left: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+  }
+  
+  .link li:hover{
+      background-color: white;
+      color: blue;
+  }
